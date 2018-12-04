@@ -3,7 +3,6 @@ import {StyleSheet, Text, View, TextInput, Alert} from 'react-native';
 
 import { Button } from './src/components/common'
 
-
 /** Begin setup database */
 import { Database, Q } from '@nozbe/watermelondb'
 import SQLiteAdapter from '@nozbe/watermelondb/adapters/sqlite'
